@@ -1,0 +1,15 @@
+{
+  "name": "ytb2summary",
+  "version": "1.0.0",
+  "description": "A CLI tool to summarize YouTube videos",
+  "main": "src/summarize.js",
+  "bin": {
+    "ytb2summary": "./cli.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@toil/neurojs": "^1.1.2",
+    "@vot.js/node": "^2.2.6",
+    "commander": "^13.1.0"
+  }
+}
